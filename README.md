@@ -6,14 +6,18 @@
 - ls -al
 - code .
 
-## Comands
-- git init
+## Config git
+- git config --list
+- git config --global user.name = "Your name" 
+- git config --global user.email = "Your email" 
 
-- git add file.<ext> #stage
-- git rm --cached file.<ext>
-- git commit -m "message" #repo
-- git add .
+## Comands basic git
+- git init
 - git status
+- (git add file.<ext>) OR (git add .) #stage
+- git commit -m "This is message" #repo
+
+
+- git rm --cached file.<ext>
+- git show file.<ext>
 - git log file.<ext>
-- git add .
-- git commit -m "message 2"

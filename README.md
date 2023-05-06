@@ -66,7 +66,6 @@ git status
 git add test.py
 git rm --cached test.py
 git commit -m "description of changes"
---repeat
 ```
 
 ## Analyze changes
@@ -109,6 +108,9 @@ git checkout -b your_name_branch_here
 
 # GitHub :octocat:
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
+<p align="center">
+  <img src="/assets/img/git_github.jpg">
+</p>
 
 ### Example: Contribute to an existing repository :zap:
 ```

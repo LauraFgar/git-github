@@ -27,9 +27,6 @@ git config --global user.email = "Your email"
   <img src="/assets/img/workflow.png">
 </p>
 
-
-![Git workflow](/assets/img/workflow.png)
-
 ## Comands basic git
 Initialize a repository from an existing directory
 - git init

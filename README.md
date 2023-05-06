@@ -2,7 +2,7 @@
 
 _Getting started with Git and GitHub_
 
-# GIT :checkered_flag:
+# GIT :octocat:
 * [Read documentation](https://git-scm.com/)
 
 ## Configuration :wrench:
@@ -83,12 +83,31 @@ git diff <IDCommit1> <IDCommit2>
 ## Back to the past
 ```
 git checkout IDCommit1 file.<ext>
+```
+```
 git checkout master file.<ext>
 ```
 <!-- ## Git reset vs. Git rm
 - git rm --cached file.<ext> #staging -->
 
-# GitHub
+## Branchs
+* [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)
+
+<p align="center">
+  <img src="/assets/img/gitflow-diagram.jpg">
+</p>
+
+```
+git branch
+git branch your_name_branch_here
+git checkout your_name_branch_here
+
+OR
+
+git checkout -b your_name_branch_here
+```
+
+# GitHub :octocat:
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
 
 ### Example: Contribute to an existing repository :zap:
@@ -167,20 +186,3 @@ git push
 There are two primary ways people collaborate on GitHub:
 - Shared repository
 - Fork and pull
-
-## Branchs
-* [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)
-
-<p align="center">
-  <img src="/assets/img/gitflow-diagram.jpg">
-</p>
-
-```
-git branch
-git branch your_name_branch_here
-git checkout your_name_branch_here
-
-OR
-
-git checkout -b your_name_branch_here
-```

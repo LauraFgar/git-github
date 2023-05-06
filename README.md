@@ -109,6 +109,9 @@ git merge your_name_branch_here
 ```
 git commit -m "Merge your_name_branch_here into main"
 ```
+```
+git push -u origin main
+```
 # GitHub :octocat:
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
 * [Diagram Git and GitHub](https://static.platzi.com/media/public/uploads/git-github-17-28_e1ce4a1b-3b4c-4308-8057-b6c111ff7337.pdf)

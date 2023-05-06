@@ -35,10 +35,10 @@ git init
 git clone
 ```
 ```
-git add : (git add file.<ext>) OR (git add .) #staging
+git add
 ```
 ```
-git commit : git commit -m "This is message" #repository
+git commit
 ```
 ```
 git status
@@ -56,21 +56,40 @@ git pull
 git push
 ```
 
-## Analyze changes git
-- git show
-- git log file.<ext>
-<!-- - git diff IDCommit1 IDCommit2  -->
+# EXAMPLE 1
+```
+mkdir test
+cd test
+touch test.py
+ls
+git init
+ls -al
+git status
+git add test.py
+git rm --cached test.py
+git commit -m "description of changes"
+--repeat
+```
 
-## Git reset vs. Git rm
-- git rm --cached file.<ext> #staging
+## Analyze changes
+- git show file.<ext>
+- git log file.<ext>
+- git diff IDCommit1 IDCommit2 
+
+<!-- ## Git reset vs. Git rm
+- git rm --cached file.<ext> #staging -->
 
 ## Branchs
+
+<p align="center">
+  <img src="/assets/img/gitflow-diagram.jpg">
+</p>
+
 - GitFlow: Simple pattern to branch (Patrón simple para ramificar)
     https://www.campingcoder.com/2018/04/how-to-use-git-flow/
     https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 - git branch
-
 - git branch your_name_branch_here
 - git checkout your_name_branch_here
 

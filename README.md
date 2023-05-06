@@ -72,27 +72,32 @@ git commit -m "description of changes"
 ```
 
 ## Analyze changes
-- git show file.<ext>
-- git log file.<ext>
-- git diff IDCommit1 IDCommit2 
+```
+git show file.<ext>
+```
+```
+git log file.<ext>
+```
+```
+git diff <IDCommit1> <IDCommit2>
+```
 
 <!-- ## Git reset vs. Git rm
 - git rm --cached file.<ext> #staging -->
 
 ## Branchs
+* [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - GitFlow: Simple pattern to branch (Patrón simple para ramificar)
 
 <p align="center">
   <img src="/assets/img/gitflow-diagram.jpg">
 </p>
 
-- GitFlow: Simple pattern to branch (Patrón simple para ramificar)
-    https://www.campingcoder.com/2018/04/how-to-use-git-flow/
-    https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+```
+git branch
+git branch your_name_branch_here
+git checkout your_name_branch_here
 
-- git branch
-- git branch your_name_branch_here
-- git checkout your_name_branch_here
+OR
 
-- OR
-
-- git checkout -b your_name_branch_here
+git checkout -b your_name_branch_here
+```

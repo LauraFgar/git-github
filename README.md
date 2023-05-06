@@ -2,22 +2,23 @@
 
 _Getting started with Git and GitHub_
 
-## INSTALL GIT :checkered_flag:
+## Install GIT :checkered_flag:
 ```
 https://git-scm.com/ 
 ```
 
-## CONFIGIGURATION :wrench:
+## Configuration :wrench:
 - git config --list
 - git config --global user.name = "Your name" 
 - git config --global user.email = "Your email" 
 
-## WORKFLOW :house:
-![Git workflow](/assets/img/workflow.png)
-
+## Workflow :house:
+```
 - 1: Working directory (untracked)
 - 2: Staging directory (tracked)
 - 3: Repository (IDCommit)
+```
+![Git workflow](/assets/img/workflow.png)
 
 ## Comands basic git
 Initialize a repository from an existing directory

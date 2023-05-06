@@ -8,15 +8,21 @@ https://git-scm.com/
 ```
 
 ## Configuration :wrench:
-- git config --list
-- git config --global user.name = "Your name" 
-- git config --global user.email = "Your email" 
+```
+git config --list
+```
+```
+git config --global user.name = "Your name" 
+```
+```
+git config --global user.email = "Your email" 
+```
 
 ## Workflow :house:
 ```
-- 1: Working directory (untracked)
-- 2: Staging directory (tracked)
-- 3: Repository (IDCommit)
+- Working directory (untracked)
+- Staging directory (tracked)
+- Repository (IDCommit)
 ```
 ![Git workflow](/assets/img/workflow.png)
 

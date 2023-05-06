@@ -79,7 +79,11 @@ git checkout IDCommit1 file.<ext>
 git checkout master file.<ext>
 ```
 <!-- ## Git reset vs. Git rm
-- git rm --cached file.<ext> #staging -->
+- git rm --cached file.<ext> #staging 
+
+git remote -v
+git remote remove origin
+-->
 
 ## Branchs 🚀
 * [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)

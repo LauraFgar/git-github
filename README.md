@@ -109,7 +109,7 @@ git checkout -b your_name_branch_here
 # GitHub :octocat:
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
 <p align="center">
-  <img src="/assets/img/git_github.jpg">
+  <img src="/assets/img/git_github.png">
 </p>
 
 ### Example: Contribute to an existing repository :zap:

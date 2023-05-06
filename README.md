@@ -1,5 +1,7 @@
 ## INSTALL
+```
 - https://git-scm.com/ 
+```
 
 ## Config git
 - git config --list
@@ -18,14 +20,13 @@ Initialize a repository from an existing directory
 - (git add file.<ext>) OR (git add .) #staging
 - git commit -m "This is message" #repository
 
-<!-- ## Analyze changes git
+## Analyze changes git
 - git show
 - git log file.<ext>
-- git diff IDCommit1 IDCommit2 
+<!-- - git diff IDCommit1 IDCommit2  -->
 
 ## Git reset vs. Git rm
-- git rm --cached file.<ext> -->
-
+- git rm --cached file.<ext> #staging
 
 ## Branchs
 - GitFlow: Simple pattern to branch (Patrón simple para ramificar)
@@ -33,5 +34,10 @@ Initialize a repository from an existing directory
     https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 - git branch
+
 - git branch your_name_branch_here
 - git checkout your_name_branch_here
+
+- OR
+
+- git checkout -b your_name_branch_here

@@ -86,7 +86,7 @@ git diff <IDCommit1> <IDCommit2>
 - git rm --cached file.<ext> #staging -->
 
 ## Branchs
-* [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - GitFlow: Simple pattern to branch (Patrón simple para ramificar)
+* [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)
 
 <p align="center">
   <img src="/assets/img/gitflow-diagram.jpg">

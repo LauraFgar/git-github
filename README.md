@@ -119,6 +119,33 @@ git push -u origin main
   <img src="/assets/img/git_github.png">
 </p>
 
+## Models for collaborative development :boom:
+There are two primary ways people collaborate on GitHub:
+- Shared repository
+- Fork and pull
+
+### Example: Start a new repository and publish it to GitHub :zap:
+```
+# create a new directory, and initialize it with git-specific functions
+mkdir my_folder
+cd my_folder
+git init
+
+# create the first file in the project
+touch README.md
+
+# git isn't aware of the file, stage it
+git add README.md
+
+# take a snapshot of the staging area
+git commit -m "add README to initial commit"
+
+# provide the path for the repository you created on github
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+
+# push changes to github
+git push --set-upstream origin master
+```
 ### Example: Contribute to an existing repository :zap:
 ```
 # download a repository on GitHub to our machine
@@ -145,29 +172,6 @@ git commit -m "description of changes"
 git push -u origin my-branch
 ```
 
-### Example: Start a new repository and publish it to GitHub :zap:
-```
-# create a new directory, and initialize it with git-specific functions
-mkdir my_folder
-cd my_folder
-git init
-
-# create the first file in the project
-touch README.md
-
-# git isn't aware of the file, stage it
-git add README.md
-
-# take a snapshot of the staging area
-git commit -m "add README to initial commit"
-
-# provide the path for the repository you created on github
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-
-# push changes to github
-git push --set-upstream origin main
-```
-
 ### Example: contribute to an existing branch on GitHub :zap:
 ```
 # change into the `my_folder` directory
@@ -191,7 +195,5 @@ git commit -m "edit file1"
 git push --set-upstream origin feature-a
 ```
 
-## Models for collaborative development :boom:
-There are two primary ways people collaborate on GitHub:
-- Shared repository
-- Fork and pull
+## Pull Request 🚀
+* [Read documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)

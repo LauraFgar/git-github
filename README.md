@@ -56,7 +56,7 @@ git pull
 git push
 ```
 
-# EXAMPLE 1
+# Example: Start a new repository local :sunglasses:
 ```
 mkdir test
 cd test

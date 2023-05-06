@@ -152,7 +152,7 @@ git commit -m "add README to initial commit"
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
 # push changes to github
-git push -u origin main
+git push --set-upstream origin main
 ```
 
 ### Example: contribute to an existing branch on GitHub :zap:
@@ -175,7 +175,7 @@ git add file1.md
 git commit -m "edit file1"
 
 # push changes to github
-git push
+git push --set-upstream origin main
 ```
 
 ## Models for collaborative development :boom:

@@ -27,12 +27,16 @@ git config --global user.email = "Your email"
   <img src="/assets/img/workflow.png">
 </p>
 
-## Comands basic git
-Initialize a repository from an existing directory
+## Basic commands :walking:
 - git init
+- git clone
+- git add : (git add file.<ext>) OR (git add .) #staging
+- git commit : git commit -m "This is message" #repository
 - git status
-- (git add file.<ext>) OR (git add .) #staging
-- git commit -m "This is message" #repository
+- git branch
+- git merge
+- git pull
+- git push
 
 ## Analyze changes git
 - git show

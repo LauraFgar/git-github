@@ -108,7 +108,7 @@ git checkout -b your_name_branch_here
 
 # GitHub :octocat:
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
-* [Diagram](/assets/pdf/git-github-platzi.pdf)
+* [Diagram Git and GitHub](https://static.platzi.com/media/public/uploads/git-github-17-28_e1ce4a1b-3b4c-4308-8057-b6c111ff7337.pdf)
 <p align="center">
   <img src="/assets/img/git_github.png">
 </p>

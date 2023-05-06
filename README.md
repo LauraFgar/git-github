@@ -60,7 +60,7 @@ git rm --cached test.py
 git commit -m "description of changes"
 ```
 
-## Analyze changes
+## Analyze changes :eyes:
 ```
 git show file.<ext>
 ```
@@ -71,7 +71,7 @@ git log file.<ext>
 git diff <IDCommit1> <IDCommit2>
 ```
 
-## Back to the past
+## Back to the past :cyclone:
 ```
 git checkout IDCommit1 file.<ext>
 ```
@@ -81,7 +81,7 @@ git checkout master file.<ext>
 <!-- ## Git reset vs. Git rm
 - git rm --cached file.<ext> #staging -->
 
-## Branchs
+## Branchs 🚀
 * [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)
 
 <p align="center">

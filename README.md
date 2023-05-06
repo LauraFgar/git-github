@@ -1,21 +1,23 @@
-# GIT Y GITHUB :cyclone:
+# GIT Y GITHUB :octocat: :cyclone:
 
-_Primeros pasos con Git y GitHub_
+_Getting started with Git and GitHub_
 
-## INSTALL
+## INSTALL GIT :checkered_flag:
 ```
 https://git-scm.com/ 
 ```
 
-## Config git
+## CONFIGIGURATION :wrench:
 - git config --list
 - git config --global user.name = "Your name" 
 - git config --global user.email = "Your email" 
 
-## Status Git
+## WORKFLOW :house:
+![Git workflow](/assets/img/cicly_git.png.jpg)
+
 - 1: Working directory (untracked)
 - 2: Staging directory (tracked)
-- 3: Repository (IDCommit1)
+- 3: Repository (IDCommit)
 
 ## Comands basic git
 Initialize a repository from an existing directory

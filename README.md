@@ -19,11 +19,10 @@ git config --global user.email = "Your email"
 ```
 
 ## Workflow :house:
-```
 - Working directory (untracked)
 - Staging directory (tracked)
 - Repository (IDCommit)
-```
+
 ![Git workflow](/assets/img/workflow.png)
 
 ## Comands basic git

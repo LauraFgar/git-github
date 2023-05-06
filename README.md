@@ -23,6 +23,11 @@ git config --global user.email = "Your email"
 - Staging directory (tracked)
 - Repository (IDCommit)
 
+<p align="center">
+  <img src="/assets/img/workflow.png">
+</p>
+
+
 ![Git workflow](/assets/img/workflow.png)
 
 ## Comands basic git

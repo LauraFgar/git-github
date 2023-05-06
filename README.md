@@ -2,10 +2,8 @@
 
 _Getting started with Git and GitHub_
 
-## Install GIT :checkered_flag:
-```
-https://git-scm.com/ 
-```
+# GIT :checkered_flag:
+* [Read documentation](https://git-scm.com/)
 
 ## Configuration :wrench:
 ```
@@ -90,7 +88,7 @@ git checkout master file.<ext>
 <!-- ## Git reset vs. Git rm
 - git rm --cached file.<ext> #staging -->
 
-## GitHub
+# GitHub
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
 
 ### Example: Contribute to an existing repository :sunglasses:

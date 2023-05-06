@@ -1,4 +1,4 @@
-# GIT Y GITHUB :octocat: :cyclone:
+# GIT Y GITHUB :octocat:
 
 _Getting started with Git and GitHub_
 
@@ -13,7 +13,7 @@ https://git-scm.com/
 - git config --global user.email = "Your email" 
 
 ## WORKFLOW :house:
-![Git workflow](/assets/img/cicly_git.png.jpg)
+![Git workflow](/assets/img/workflow.png)
 
 - 1: Working directory (untracked)
 - 2: Staging directory (tracked)

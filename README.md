@@ -90,11 +90,12 @@ git checkout master file.<ext>
 
 ```
 git branch
+```
+```
 git branch your_name_branch_here
 git checkout your_name_branch_here
-
-OR
-
+```
+```
 git checkout -b your_name_branch_here
 ```
 

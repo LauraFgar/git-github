@@ -195,5 +195,8 @@ git commit -m "edit file1"
 git push --set-upstream origin feature-a
 ```
 
-## Pull Request 🚀
+# GitHub Pull Request 🚀
 * [Read documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
+# GitHub Actions 🚀
+* [Read documentation](https://github.com/features/actions)

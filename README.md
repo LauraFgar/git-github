@@ -28,29 +28,21 @@ git config --global user.email = "Your email"
 ## Basic commands :walking:
 ```
 git init
-```
-```
+
 git clone
-```
-```
+
 git add
-```
-```
+
 git commit
-```
-```
+
 git status
-```
-```
+
 git branch
-```
-```
+
 git merge
-```
-```
+
 git pull
-```
-```
+
 git push
 ```
 

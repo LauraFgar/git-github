@@ -91,14 +91,13 @@ git checkout master file.<ext>
 # GitHub
 * [Read documentation](https://docs.github.com/en/get-started/quickstart/hello-world)
 
-### Example: Contribute to an existing repository :sunglasses:
+### Example: Contribute to an existing repository :zap:
 ```
 # download a repository on GitHub to our machine
-# Replace `owner/repo` with the owner and name of the repository to clone
-git clone https://github.com/owner/repo.git
+git clone https://github.com/name/repository.git
 
-# change into the `repo` directory
-cd repo
+# change into the `repository` directory
+cd repository
 
 # create a new branch to store any new changes
 git branch my-branch
@@ -109,14 +108,66 @@ git checkout my-branch
 # make changes, for example, edit `file1.md` and `file2.md` using the text editor
 
 # stage the changed files
-git add file1.md file2.md
+git add file1.md file2.md OR git add .
 
 # take a snapshot of the staging area (anything that's been added)
-git commit -m "my snapshot"
+git commit -m "description of changes"
 
 # push changes to github
-git push --set-upstream origin my-branch
+git push -u origin my-branch
 ```
+
+### Example: Start a new repository and publish it to GitHub :zap:
+```
+# create a new directory, and initialize it with git-specific functions
+mkdir my_folder
+cd my_folder
+git init
+
+# create the first file in the project
+touch README.md
+
+# git isn't aware of the file, stage it
+git add README.md
+
+# take a snapshot of the staging area
+git commit -m "add README to initial commit"
+
+# provide the path for the repository you created on github
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+
+# push changes to github
+git push -u origin main
+```
+
+### Example: contribute to an existing branch on GitHub :zap:
+```
+# change into the `my_folder` directory
+cd my_folder
+
+# update all remote tracking branches, and the currently checked out branch
+git pull
+
+# change into the existing branch called `feature-a`
+git checkout feature-a
+
+# make changes, for example, edit `file1.md` using the text editor
+
+# stage the changed file
+git add file1.md
+
+# take a snapshot of the staging area
+git commit -m "edit file1"
+
+# push changes to github
+git push
+```
+
+## Models for collaborative development :boom:
+There are two primary ways people collaborate on GitHub:
+- Shared repository
+- Fork and pull
+
 ## Branchs
 * [GitFlow](https://www.campingcoder.com/2018/04/how-to-use-git-flow/) - Simple pattern to branch (Patrón simple para ramificar)
 

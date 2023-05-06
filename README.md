@@ -28,15 +28,33 @@ git config --global user.email = "Your email"
 </p>
 
 ## Basic commands :walking:
-- git init
-- git clone
-- git add : (git add file.<ext>) OR (git add .) #staging
-- git commit : git commit -m "This is message" #repository
-- git status
-- git branch
-- git merge
-- git pull
-- git push
+```
+git init
+```
+```
+git clone
+```
+```
+git add : (git add file.<ext>) OR (git add .) #staging
+```
+```
+git commit : git commit -m "This is message" #repository
+```
+```
+git status
+```
+```
+git branch
+```
+```
+git merge
+```
+```
+git pull
+```
+```
+git push
+```
 
 ## Analyze changes git
 - git show

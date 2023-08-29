@@ -13,7 +13,7 @@ git config --list
 git config --global user.name = "Your name" 
 ```
 ```
-git config --global user.email = "Your email" 
+git config  --global user.email = "Your email" 
 ```
 
 ## Workflow local :house:

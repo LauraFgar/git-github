@@ -205,5 +205,3 @@ git push --set-upstream origin feature-a
 
 ## GitHub Actions :octocat:
 * [Read documentation](https://github.com/features/actions)
-
-## GitHub2
